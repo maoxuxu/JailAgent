@@ -6,7 +6,7 @@ This repository contains codes for the paper “[Stop Fixating on Prompts: Reaso
 
 ## 🔮 Abstract
 
-With the widespread application of LLM-based agents across various domains, their complexity has introduced new security threats. Existing red-team methods mostly rely on modifying user prompts, which lack adaptability to new data and may impact the agent's performance. To address this, this paper proposes the JailAgent framework, which completely avoids modifying the user prompt. Instead, it implicitly manipulates the agent's reasoning trajectory and memory retrieval. JailAgent consists of three key stages: Prompt Grouping, Reasoning Hijacking, and Constraint Tightening. Through precise trigger identification, real-time adaptive mechanisms, and an optimized objective function, JailAgent demonstrates outstanding performance in cross-model and cross-scenario environments.
+With the widespread application of LLM-based agents across various domains, their complexity has introduced new security threats. Existing red-team methods mostly rely on modifying user prompts, which lack adaptability to new data and may impact the agent's performance. To address this, this paper proposes the JailAgent framework, which completely avoids modifying the user prompt. Instead, it implicitly manipulates the agent's reasoning trajectory and memory retrieval. JailAgent consists of three key stages: Trigger Extraction, Reasoning Hijacking, and Constraint Tightening. Through precise trigger identification, real-time adaptive mechanisms, and an optimized objective function, JailAgent demonstrates outstanding performance in cross-model and cross-scenario environments.
 
 <div align="left">
   <img src="https://github.com/maoxuxu/JailAgent/blob/main/jailagent.jpg" width="99%">
